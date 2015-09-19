@@ -11,9 +11,9 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    let image = UIView(frame: CGRectMake(0, 0, 100, 100))
-    
-    @IBAction func backToPeople(segue:UIStoryboardSegue) {
+    let image = UIImageView(frame: CGRectMake(0, 0, 100, 100))
+
+    @IBAction func backToPeople(segue:ViewController) {
         
     }
     
@@ -34,3 +34,4 @@ class DetailViewController: UIViewController {
     
     
 }
+

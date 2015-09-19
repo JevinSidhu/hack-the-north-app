@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let button = MKButton(frame: CGRect(x: 10, y: 10, width: 100, height: 35))
 
     override func viewDidLoad() {
         
