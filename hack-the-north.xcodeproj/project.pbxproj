@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B258433B1BAD93CF00180568 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B258433A1BAD93CF00180568 /* DetailViewController.swift */; };
 		B2BCCB4F1BAD414300267B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCCB4E1BAD414300267B94 /* AppDelegate.swift */; };
 		B2BCCB511BAD414300267B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BCCB501BAD414300267B94 /* ViewController.swift */; };
 		B2BCCB541BAD414300267B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BCCB521BAD414300267B94 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B258433A1BAD93CF00180568 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B2BCCB491BAD414300267B94 /* hack-the-north.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hack-the-north.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BCCB4D1BAD414300267B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2BCCB4E1BAD414300267B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B2BCCB4E1BAD414300267B94 /* AppDelegate.swift */,
+				B258433A1BAD93CF00180568 /* DetailViewController.swift */,
 				B2BCCB501BAD414300267B94 /* ViewController.swift */,
 				B2BCCB521BAD414300267B94 /* Main.storyboard */,
 				B2BCCB551BAD414300267B94 /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B258433B1BAD93CF00180568 /* DetailViewController.swift in Sources */,
 				B2BCCB511BAD414300267B94 /* ViewController.swift in Sources */,
 				B2BCCB4F1BAD414300267B94 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				B2BCCB6A1BAD414300267B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2BCCB6B1BAD414300267B94 /* Build configuration list for PBXNativeTarget "hack-the-northTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				B2BCCB6D1BAD414300267B94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
